@@ -12,4 +12,4 @@ jobs:
         - name: Setup MSBuild
           uses: microsoft/setup-msbuild@v2
         - name: build solution
-          run: echo Hola
+          run: msbuild PhysicsGame.sln /p:Configuration=Release
